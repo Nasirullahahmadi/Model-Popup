@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Model Popup Box</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="container">
+  <button id="button" class="btn">Click me!</button>
+</div>
+
+<div class="popupContainer">
+
+  <div class="popupContent">
+    <h3>Rate your experience</h3>
+    <input type="radio" name="button" id="btn1">
+    <input type="radio" name="button" id="btn2">
+    <input type="radio" name="button" id="btn3">
+    <input type="radio" name="button" id="btn4">
+    <input type="radio" name="button" id="btn5">
+
+    <div class="icon">
+      <label for="btn1">☹️</label>
+      <label for="btn2">😐</label>
+      <label for="btn3">😊</label>
+      <label for="btn4">😃</label>
+      <label for="btn5">😍</label>
+    </div>
+
+    <input type="submit" value="submit" class="submitBtn">
+
+    <div class="close" id="popupClose"><i class="fa-solid fa-xmark"></i></div>
+
+  </div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
